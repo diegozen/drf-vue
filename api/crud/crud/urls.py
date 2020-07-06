@@ -19,7 +19,6 @@ from django.conf.urls import url, include
 from notes.views import index
 
 urlpatterns = [
-    url(r'^$', index),
     path('admin/', admin.site.urls),
     path('api/', include('notes.urls', namespace='notes')),
 ]
