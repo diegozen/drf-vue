@@ -44,7 +44,7 @@ Endpoints are:
 ### Vue client
 In notes-app/ directory, run npm server
 ```bash
-npm run server
+npm run serve
 ```
 
 ## License
